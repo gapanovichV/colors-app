@@ -1,0 +1,33 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 4rem;
+}
+
+.input {
+  border-radius: var(--border-radius);
+  border: var(--border-line);
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  label {
+    display: flex;
+    align-items: center;
+    gap: 0.25rem;
+    cursor: pointer;
+  }
+}
+
+.main {
+  display: grid;
+  justify-items: center;
+  align-items: center;
+  padding: 1rem 4rem;
+  min-height: 90vh;
+}
+.content {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 4rem;
+}

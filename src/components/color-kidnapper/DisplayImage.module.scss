@@ -1,0 +1,16 @@
+.image {
+  border-radius: var(--border-radius);
+  border: var(--border-line);
+  width: 50rem;
+  height: 30rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+  }
+}
